@@ -1,0 +1,7 @@
+row = int(input('enter the number of rows'))
+count=1
+for c in range(row):
+    for d in range(c+1):
+        print(count, end=" ")
+        count+=1
+    print()
